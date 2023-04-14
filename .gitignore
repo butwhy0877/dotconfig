@@ -28,3 +28,7 @@
 # .zsh
 .zsh/olets
 .zsh/zsh-users
+
+# files
+.config/clifm/profiles/default/history.clifm
+.config/clifm/profiles/default/jump.clifm
