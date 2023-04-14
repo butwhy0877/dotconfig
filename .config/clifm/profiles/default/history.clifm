@@ -1177,3 +1177,246 @@ rm 1
 cp ~/.config/ ~/.git/dotconfig/
 #1681464453
 cp -r ~/.config/ ~/.git/dotconfig/
+#1681464461
+git add .config
+#1681464470
+git push -u origin master
+#1681464488
+git add .
+#1681464507
+git commit -m "changed to folder for .config"
+#1681464516
+git push -u origin master
+#1681464585
+clear
+#1681464615
+icons on
+#1681464633
+rm .alias .vimrc .zshrc
+#1681464635
+clear
+#1681464659
+cp ~/.zshrc ~/.vimrc ~/.alias ~/.git/dotconfig
+#1681464661
+clear
+#1681464663
+git add .
+#1681464678
+git commit -m "changed to copied files"
+#1681464685
+git push -u origin master
+#1681464724
+clear
+#1681464744
+rm -r .local .zsh
+#1681464760
+cp ~/.local ~/.zsh ~/.git/dotconfig/
+#1681464766
+cp -r ~/.local ~/.zsh ~/.git/dotconfig/
+#1681464769
+clear
+#1681464772
+git add .
+#1681464789
+git commit -m "moved away to unlinked files and folder
+#1681464793
+git commit -m "moved away to unlinked files and folder \
+#1681464796
+git commit -m "moved away to unlinked files and folder /
+#1681464805
+git commit -m "moved away to unlinked files and folder"
+#1681464815
+git push -u origin master
+#1681464887
+vim README.md
+#1681465028
+git add README.md
+#1681465045
+git commit -m "added readme cause why not"
+#1681465052
+git push -u origin master
+#1681465060
+clear
+#1681465075
+vim README.md
+#1681465088
+git commit -m "removed stupid mistakes
+#1681465090
+git commit -m "removed stupid mistakes"
+#1681465096
+git add README.md
+#1681465098
+git commit -m "removed stupid mistakes"
+#1681465107
+git push -u origin master
+#1681465155
+vim .gitignore \
+#1681465190
+clear
+#1681465195
+git add .
+#1681465212
+git commit -m "added mid3iconv to .gitignore"
+#1681465217
+git push -u origin master
+#1681465280
+vim .gitignore
+#1681465309
+clear
+#1681465329
+cd
+#1681465331
+cd .git
+#1681465333
+cd dotconfig
+#1681465338
+hf on
+#1681465340
+cd
+#1681465343
+cd .git
+#1681465350
+mkdir self-project
+#1681465355
+mv 1 3
+#1681465362
+git clone https://github.com/butwhy0877/dotconfig.git
+#1681465495
+cd dotconfig
+#1681465569
+hf on
+#1681465575
+cd .config
+#1681465579
+cd =
+#1681465580
+cd -
+#1681465581
+clear
+#1681465603
+vim .gitignore
+#1681465694
+git add .
+#1681465707
+git commit -m "tidying up"
+#1681465751
+git config credential.helper
+#1681465762
+git config credential.helper 'cache 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'
+#1681465768
+git push -u origin master
+#1681465815
+clear
+#1681465820
+git push -u origin master
+#1681465868
+clear
+#1681465874
+git add README.md
+#1681465902
+git commit -m "🔥"
+#1681465908
+git push -u origin master
+#1681465977
+clear
+#1681466056
+dfassdfsdfsadfdffsdsdfadsfasdfdfdfsdfdfdsfsdfasdsdfasdfsdfsdfa\\
+#1681466057
+clear
+#1681466108
+promptcmd /usr/share/clifm/plugins/git_status.sh
+
+#1681466110
+clear
+#1681466185
+cd
+#1681466189
+cd .config/clifm
+#1681466275
+rm 4
+#1681466276
+clear
+#1681466277
+cd
+#1681466284
+clear
+#1681466305
+cd .config/clifm
+#1681466350
+promp
+#1681466353
+prompt
+#1681466388
+cd plugins
+#1681466414
+wget https://github.com/leo-arch/clifm/raw/master/plugins/git_status.sh > git_status.sh
+#1681466418
+clear
+#1681466419
+ls
+#1681466423
+rm 2
+#1681466430
+rm 1
+#1681466432
+clear
+#1681466437
+wget https://github.com/leo-arch/clifm/raw/master/plugins/git_status.sh
+#1681466443
+clear
+#1681466613
+cd
+#1681466615
+cd .git
+#1681466617
+cd dotconfig/
+#1681466639
+cd ~/.config/clifm/plugins/
+#1681466644
+chmod +x git_status.sh
+#1681466645
+clear
+#1681466651
+cd
+#1681466652
+cd .git
+#1681466655
+cd dotconfig
+#1681466689
+git add README.md
+#1681466698
+git commit -m "added reasons"
+#1681466700
+clear
+#1681466719
+git push -u origin master
+#1681466726
+clear
+#1681466760
+git add .
+#1681466766
+git commit -m "added reasons"
+#1681466774
+git push --help
+#1681466790
+clear
+#1681466794
+git push -u origin master
+#1681466832
+rm .config/clifm
+#1681466839
+rm -r .config/clifm
+#1681466841
+clear
+#1681466863
+cp -r ~/.config/clifm ~/.git/dotconfig/\
+#1681466871
+rm 5
+#1681466872
+clear
+#1681466875
+rm -r 5
+#1681466876
+clear
+#1681466885
+cp -r ~/.config/clifm ~/.git/dotconfig/.config

@@ -378,6 +378,7 @@ alias exit="q"
 # Write below the commands you want to be executed before each prompt. Ex:
 #promptcmd /usr/local/share/clifm/plugins/git_status.sh
 #promptcmd date | awk '{print $1", "$2,$3", "$4}'
+promptcmd /home/thele/.config/clifm/plugins/git_status.sh
 
 #=====================================#
 #         8. AUTOCOMMANDS             #

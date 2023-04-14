@@ -1,14 +1,14 @@
-41:1680872427:1681462557:/home/thele
+48:1680872427:1681466613:/home/thele
 2:1680874209:1680874352:/usr/share
 3:1680874215:1680874350:/usr
 2:1680874217:1680874274:/usr/bin
 2:1680874336:1680874355:/usr/share/applications
-2:1680874342:1680882378:/
+3:1680874342:1681466624:/
 9:1680881067:1681395531:/home/thele/Downloads
 12:1680911700:1681368471:/home/thele/Music
 6:1680926596:1680935759:/home/thele/.config
 2:1680927057:1680927062:/home/thele/Music/Album - Kikuo Miku 7
-4:1680927543:1681462540:/home/thele/.git
+7:1680927543:1681466615:/home/thele/.git
 4:1680928718:1681395075:/mnt/workHome
 1:1680929923:1680929923:/home/thele/.config/clifm/profiles/default
 6:1680933911:1681300962:/home/thele/Pictures
@@ -21,4 +21,9 @@
 1:1681048363:1681048363:/home/thele/.config/i3/scripts
 1:1681304542:1681304542:/home/thele/.config/ncmpcpp
 1:1681395503:1681395503:/mnt/workHome/quick-access/backbackup/Whatsapp
-@4920
+7:1681463030:1681466617:/home/thele/.git/dotconfig
+1:1681463038:1681463038:/home/thele/.git/dotconfig/.git
+2:1681463285:1681465575:/home/thele/.git/dotconfig/.config
+2:1681466189:1681466305:/home/thele/.config/clifm
+2:1681466388:1681466639:/home/thele/.config/clifm/plugins
+@11172
