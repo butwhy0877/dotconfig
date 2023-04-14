@@ -10,6 +10,7 @@
 .config/systemd
 .config/YouTube\ Music
 .config/mimeapps.list
+.config/dunst/scripts
 
 # .local
 .local/bin/autotiling
