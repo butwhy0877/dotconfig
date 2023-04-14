@@ -1,1 +1,1 @@
-/home/thele/.vimrc
+set number
