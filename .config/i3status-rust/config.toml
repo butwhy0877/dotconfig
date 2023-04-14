@@ -1,0 +1,77 @@
+icons_format = "{icon}"
+
+[icons]
+icons = "awesome4"
+
+[[block]]
+block = "focused_window"
+[block.format]
+full = " $title.str(max_w:85) |"
+short = " $title.str(max_w:50) |"
+
+[[block]]
+block = "music"
+format = " $icon {$combo.str(max_w:25,rot_interval:0.2) $play $next|} "
+seek_step_secs = 10
+[[block.click]]
+button = "up"
+action = "volume_up"
+[[block.click]]
+button = "down"
+action = "volume_down"
+[[block.click]]
+button = "forward"
+action = "seek_forward"
+[[block.click]]
+button = "back"
+action = "seek_backward"
+
+[[block]]
+block = "sound"
+[[block.click]]
+button = "left"
+cmd = "pactl"
+
+[[block]]
+block = "dnf"
+interval = 90
+format = " $icon $count.eng(w:1)"
+format_singular = " $icon 1"
+format_up_to_date = " $icon"
+critical_updates_regex = "(linux|linux-lts|linux-zen)"
+[[block.click]]
+button = "left"
+cmd = "dnf list -q --upgrades | tail -n +2 | dmenu -l 10 -p 'available updates: '"
+
+[[block]]
+block = "notify"
+format = " $icon {($notification_count.eng(w:1)) |}"
+
+[[block]]
+block = "net"
+format = " $icon {$signal_strength $ssid|Wired connection} "
+interval = 60
+
+[[block]]
+block = "battery"
+format = " $icon $percentage "
+
+[[block]]
+block = "time"
+interval = 3
+format = " $timestamp.datetime(f:'%a %d/%m %I:%M %p') "
+
+[[block]]
+block = "menu"
+text = "\uf011"
+[[block.items]]
+display = " -&gt;   Sleep   &lt;-"
+cmd = "/home/thele/.config/i3/scripts/lock.sh"
+[[block.items]]
+display = " -&gt; Power Off &lt;-"
+cmd = "poweroff"
+confirm_msg = "Are you sure you want to power off?"
+[[block.items]]
+display = " -&gt;  Reboot   &lt;-"
+cmd = "reboot"
+confirm_msg = "Are you sure you want to reboot?"

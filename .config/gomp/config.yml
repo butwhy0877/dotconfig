@@ -1,0 +1,5 @@
+CACHE_DIR : "/home/thele/.cache/gomp/"
+MPD_PORT : "6600"
+ADDITIONAL_PADDING_X : 14
+ADDITIONAL_PADDING_Y : 20
+togglePlayBack : [ "p", "SPACE" ]
