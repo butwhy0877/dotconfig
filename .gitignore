@@ -1,0 +1,26 @@
+/.config/BraveSoftware
+/.config/dconf
+/.config/discord
+/.config/gtk-3.0
+/.config/libfm
+/.config/menus
+/.config/Mullvad\ VPN
+/.config/pulse
+/.config/systemd
+/.config/YouTube\ Music
+/.config/mimeapps.list
+/.local/bin/autotiling
+/.local/bin/mid3cp
+/.local/bin/mid3v2
+/.local/bin/moggsplit
+/.local/bin/mutagen-inspect
+/.local/bin/mutagen-pony
+/.local/bin/youtube-dl
+/.local/bin/yt-dlp
+/.local/lib
+/.local/share
+/.local/state
+/.zsh/olets
+/.zsh/zsh-users
+
+
