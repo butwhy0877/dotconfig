@@ -11,6 +11,7 @@
 /.config/mimeapps.list
 /.local/bin/autotiling
 /.local/bin/mid3cp
+/.local/bin/mid3iconv
 /.local/bin/mid3v2
 /.local/bin/moggsplit
 /.local/bin/mutagen-inspect
@@ -22,5 +23,3 @@
 /.local/state
 /.zsh/olets
 /.zsh/zsh-users
-
-
