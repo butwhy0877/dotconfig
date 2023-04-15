@@ -29,11 +29,15 @@ chmod +x install.sh
 ```
 note: make sure to cd into the file first
 3. run install.sh 
+
 this will enable dnf parallel downloads, enable rpm fusion, add and install brave browser,
 add copr repository for keyd and i3status-rust, install and setup go and lf (file manager)
 and install packages listed in the install.sh
 
 this script will also make systemd target graphical target (comment this out if you want to use xinit or startx)
+
 4. make the intended user (this is not handled by the install.sh)
+
 5. because opendoas package is installed, it is recommended to remove sudo
+
 6. reboot to lightdm and proceed
