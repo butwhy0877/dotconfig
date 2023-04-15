@@ -20,9 +20,13 @@ you MUST be a root user
 1. move necessary files to their intended location
 > backgrounds pictures to /usr/share/backgrounds (necessary if slick-greeter.conf is moved to its intended location)
 > keyd-default.conf to /etc/keyd/default.conf 
+
 > slick-greeter.conf to /etc/lightdm
+
 > doas.conf to /etc/doas.conf
+
 > the rest of the files goes to the home directory 
+
 2. make install.sh executable
 ``` bash
 chmod +x install.sh
