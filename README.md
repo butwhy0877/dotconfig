@@ -31,7 +31,8 @@ you MUST be a root user
 ``` bash
 chmod +x install.sh
 ```
-note: make sure to cd into the file first
+note: make sure to cd into the folder first
+
 3. run install.sh 
 
 this will enable dnf parallel downloads, enable rpm fusion, add and install brave browser,
