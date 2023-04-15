@@ -5,5 +5,7 @@ don't want the hassle. really.
 also to learn how to use git on the command line
 
 ## todo
-- [ ] make an install script
+- [x] make an install script
+> - [ ] do install script cleanup
+> - [ ] qol improvements
 - [ ] .gitignore cleanup
