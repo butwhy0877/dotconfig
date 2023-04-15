@@ -2,7 +2,7 @@
 
 don't want the hassle. really.
 
-also to learn how to use the git command line
+also to learn how to use git on the command line
 
 ## todo
 - [ ] make an install script
