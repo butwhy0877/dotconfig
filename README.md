@@ -6,3 +6,4 @@ also to learn how to use git on the command line
 
 ## todo
 - [ ] make an install script
+- [ ] .gitignore cleanup
