@@ -7,7 +7,7 @@ also to learn how to use git on the command line
 
 ## todo
 - [x] make an install script
-> - [ ] do install script cleanup
+> - [ ] improve the install script
 > - [ ] qol improvements
 - [ ] .gitignore cleanup
 
