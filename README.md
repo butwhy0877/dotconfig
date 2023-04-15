@@ -1,5 +1,5 @@
-# dotconfig for i3
-dotconfig plus install script (install.sh)
+# dotfiles for i3
+necessary dot files plus install script (install.sh)
 
 don't want the hassle. really.
 
