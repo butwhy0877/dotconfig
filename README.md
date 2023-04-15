@@ -19,6 +19,7 @@ you MUST be a root user
 
 1. move necessary files to their intended location
 > backgrounds pictures to /usr/share/backgrounds (necessary if slick-greeter.conf is moved to its intended location)
+
 > keyd-default.conf to /etc/keyd/default.conf 
 
 > slick-greeter.conf to /etc/lightdm
