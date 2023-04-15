@@ -59,6 +59,8 @@ dnf --setopt install_weak_deps=False install zsh opendoas @base-x cava clifm dun
 wait;
 systemctl enable keyd.service &
 systemctl start keyd.service &
+echo "enabling booting to gui"
+systemctl set-default graphical.target
 wait;
 echo "go compile gomp @ https://github.com/aditya-K2/gomp"
 echo "also download the necessary pip packages"
