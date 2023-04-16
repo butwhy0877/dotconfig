@@ -55,7 +55,7 @@ echo "the next step is dnf installation"
 echo "press any key to continue"
 read;
 
-dnf --setopt install_weak_deps=False install zsh opendoas @base-x cava clifm dunst i3 i3status-rust kitty mpd mpdris2 dmenu keyd vim mpv ffmpeg flatpak pipewire python3-pip fontawesome-fonts fontawesome5-fonts google-noto-cjk-fonts google-noto-emoji-color-fonts google-noto-sans-mono-vf-fonts google-noto-sans-symbols-fonts google-noto-sans-symbols2-fonts brave-browser-nightly discord lightdm lightdm-settings slick-greeter pop-icon-theme pop-gtk3-theme
+dnf --setopt install_weak_deps=False install zsh opendoas @base-x NetworkManager NetworkManager-wifi network-manager-applet cava clifm dunst i3 i3status-rust kitty mpd mpdris2 dmenu keyd vim mpv ffmpeg flatpak pipewire python3-pip fontawesome-fonts fontawesome5-fonts google-noto-cjk-fonts google-noto-emoji-color-fonts google-noto-sans-mono-vf-fonts google-noto-sans-symbols-fonts google-noto-sans-symbols2-fonts brave-browser-nightly discord lightdm lightdm-settings slick-greeter pop-icon-theme pop-gtk3-theme
 wait;
 systemctl enable keyd.service 
 wait;
