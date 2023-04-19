@@ -24,6 +24,8 @@ you MUST be a root user
 
 > slick-greeter.conf to /etc/lightdm
 
+> 20-amdgpu.conf to /etc/X11/xorg.conf.d
+
 > doas.conf to /etc/doas.conf
 
 > the rest of the files goes to the home directory 
@@ -35,16 +37,21 @@ chmod +x install.sh
 ```
 note: make sure to cd into the folder first
 
-3. run prep.sh and install.sh (run prep.sh first!)
+3. run prep.sh  
 
-this will enable dnf parallel downloads, enable rpm fusion, add and install brave browser,
+this will enable dnf parallel downlaods, and install zsh for setting up user
+
+4. make your user
+
+5. run install.sh
+
+this will enable rpm fusion, add and install brave browser,
 add copr repository for keyd and i3status-rust, install and setup go and lf (file manager)
 and install packages listed in the install.sh
+it will also remove sudo (replaced with opendoas)
 
 this script will also make systemd target graphical target (comment this out if you want to use xinit or startx)
 
-4. make the intended user (this is not handled by the install.sh)
+6. -tbd- log in as your user and run user.sh
 
-5. because opendoas package is installed, it is recommended to remove sudo
-
-6. reboot to lightdm and proceed
+7. reboot to lightdm and proceed
