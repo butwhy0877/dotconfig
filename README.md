@@ -28,13 +28,14 @@ you MUST be a root user
 
 > the rest of the files goes to the home directory 
 
-2. make install.sh executable
+2. make prep.sh and install.sh executable
 ``` bash
+chmod +x prep.sh
 chmod +x install.sh
 ```
 note: make sure to cd into the folder first
 
-3. run install.sh 
+3. run prep.sh and install.sh (run prep.sh first!)
 
 this will enable dnf parallel downloads, enable rpm fusion, add and install brave browser,
 add copr repository for keyd and i3status-rust, install and setup go and lf (file manager)

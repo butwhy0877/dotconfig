@@ -6,7 +6,7 @@
 exec_always --no-startup-id autotiling
 
 # background
-exec ~/.config/i3/scripts/.fehbg &
+exec ~/.config/i3/scripts/fehbg &
 
 # opacity
 exec --no-startup-id compton --vsync opengl
