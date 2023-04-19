@@ -9,7 +9,7 @@ also to learn how to use git on the command line
 - [x] make an install script
 > - [ ] improve the install script
 > - [ ] qol improvements
-- [ ] .gitignore cleanup
+- [x] .gitignore cleanup
 
 ## installation guide (rudimentary)
 THIS GUIDE IS INTENDED FOR FEDORA DISTRIBUTION (SPECIFICALLY FEDORA 38)
