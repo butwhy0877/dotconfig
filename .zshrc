@@ -46,8 +46,8 @@ setopt SHARE_HISTORY
 setopt NO_BEEP
 
 # miniplug
-source "$HOME/.zsh/theme.zsh"
-source "$HOME/.zsh/git.zsh"
+source "$HOME/.local/zsh/theme.zsh"
+source "$HOME/.local/zsh/git.zsh"
 
 miniplug theme 'Raniconduh/zshfish'
 miniplug plugin 'zsh-users/zsh-syntax-highlighting'
