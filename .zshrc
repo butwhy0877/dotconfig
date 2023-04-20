@@ -4,18 +4,19 @@
 # functions, options, key bindings, etc.
 #
 
-export EDITOR="/bin/vim"
-source "$HOME/.local/share/miniplug.zsh"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+source "$HOME/.local/zsh/miniplug.zsh"
 
 source "$HOME/.alias"
 
 export PATH="$PATH:$HOME/.go/bin:/usr/local/go/bin:$HOME/.local/bin"
-export GOPATH="$HOME/.go"
+export GOPATH="$HOME/.local/go"
 export PF_INFO="ascii title os kernel wm editor shell uptime pkgs memory palette"
-export MINIPLUG_HOME="$HOME/.zsh"
-
-autoload -U compinit
-compinit
+export MINIPLUG_HOME="$HOME/.local/zsh"
 
 #allow tab completion in the middle of a word
 setopt COMPLETE_IN_WORD
@@ -27,13 +28,13 @@ SAVEHIST=100000
 bindkey -v
 
 # End of lines configured by zsh-newuser-install
-#allow tab completion in the middle of a word
+# allow tab completion in the middle of a word
 setopt COMPLETE_IN_WORD
 
 ## keep background processes at full speed
-#setopt NOBGNICE
+# setopt NOBGNICE
 ## restart running processes on exit
-#setopt HUP
+# setopt HUP
 
 ## history
 setopt APPEND_HISTORY
@@ -48,7 +49,7 @@ setopt NO_BEEP
 source "$HOME/.zsh/theme.zsh"
 source "$HOME/.zsh/git.zsh"
 
-source "$HOME/.zsh/zshfish.zsh-theme"
+miniplug theme 'Raniconduh/zshfish'
 miniplug plugin 'zsh-users/zsh-syntax-highlighting'
 miniplug plugin 'olets/zsh-window-title'
 
