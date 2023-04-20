@@ -9,14 +9,14 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-source "$HOME/.local/share/miniplug.zsh"
+source "$HOME/.local/zsh/miniplug.zsh"
 
 source "$HOME/.alias"
 
 export PATH="$PATH:$HOME/.go/bin:/usr/local/go/bin:$HOME/.local/bin"
-export GOPATH="$HOME/.go"
+export GOPATH="$HOME/.local/go"
 export PF_INFO="ascii title os kernel wm editor shell uptime pkgs memory palette"
-export MINIPLUG_HOME="$HOME/.zsh"
+export MINIPLUG_HOME="$HOME/.local/zsh"
 
 #allow tab completion in the middle of a word
 setopt COMPLETE_IN_WORD
